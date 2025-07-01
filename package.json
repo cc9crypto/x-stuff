@@ -1,0 +1,26 @@
+{
+  "name": "twitter-video-downloader",
+  "version": "1.0.0",
+  "description": "Multi-user Twitter video downloader with Google Cloud Storage support",
+  "type": "module",
+  "main": "extract_videos.js",
+  "scripts": {
+    "start": "node extract_videos.js",
+    "test-scraper": "node twitter_scraper_test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.7.0",
+    "@the-convocation/twitter-scraper": "^0.17.1"
+  },
+  "keywords": [
+    "twitter",
+    "video",
+    "downloader",
+    "gcs",
+    "cloud-storage",
+    "scraper"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
