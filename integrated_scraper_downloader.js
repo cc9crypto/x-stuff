@@ -14,8 +14,8 @@ const DOWNLOAD_CONFIG = {
     downloadVideos: true,      // Download video files
     downloadImages: false,     // Skip image files - VIDEOS ONLY
     concurrentDownloads: 3,    // Parallel downloads (increased since no images)
-    userId: "1548497164539949056", // yoshi9467
-    username: "yoshi9467"      // For folder naming
+    userId: "970834227221618688", // _tee_forever
+    username: "_tee_forever"      // For folder naming
 };
 
 // ☁️ GOOGLE CLOUD STORAGE CONFIGURATION
