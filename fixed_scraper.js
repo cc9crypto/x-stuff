@@ -3,7 +3,7 @@
 
 export async function request_yoshi_fixed(cursor = null) {
     const variables = {
-        "userId": "1548497164539949056", // yoshi9467
+        "userId": "970834227221618688", // yoshi9467
         "count": 40, // Increased count to get more items per page
         "includePromotedContent": false,
         "withClientEventToken": false,
@@ -201,7 +201,7 @@ function extractCursorFromResponse(response) {
 }
 
 // FIXED: Main pagination function that ensures media collection
-export async function scrapeUserMediaCompleteFixed(userId = "1548497164539949056", maxPages = 20) {
+export async function scrapeUserMediaCompleteFixed(userId = "970834227221618688", maxPages = 20) {
     console.log(`🚀 Starting FIXED complete media scrape for user ${userId}`);
     console.log(`📄 Will fetch up to ${maxPages} pages`);
     console.log(`🔧 Using enhanced counting and pagination logic`);
